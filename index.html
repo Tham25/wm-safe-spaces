@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Safe Spaces">
+  <meta property="og:description" content="Nơi những giấc mơ về một thế giới tốt đẹp hơn bắt đầu từ những hành động nhỏ bé nhưng chân thành">
+  <meta property="og:image" content="https://yourdomain.com/images/thumb.jpg">
+  
+  <title>Safe Spaces</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Thanh điều hướng -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Safe Spaces</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Trang chủ</a></li>
+        <li><a href="#workshop">Hội thảo</a></li>
+        <li><a href="#activities">Hoạt động</a></li>
+        <li><a href="#stories">Câu chuyện</a></li>
+        <li><a href="#fundraising">Ủng hộ</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Phần đầu trang (Hero Section) -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h1>Safe Spaces</h1>
+      <p>Nơi những giấc mơ về một thế giới tốt đẹp hơn bắt đầu từ những hành động nhỏ bé nhưng chân thành</p>
+      <a href="#workshop" class="btn">Tìm hiểu thêm</a>
+    </div>
+  </section>
+
+  <!-- Thông tin Hội thảo và Form đăng ký -->
+  <section id="workshop" class="workshop-section">
+    <div class="container">
+      <div class="workshop-info">
+        <h2 style="text-align: left;">Sắp diễn ra: Mẹ - Mã di truyền của tình yêu thương</h2>
+        <div class="event-details">
+          <div class="detail">
+            <div class="wrap-icon">
+              <i class="fas fa-calendar"></i>
+            </div>
+            <span>Ngày 22 tháng 6, 2025</span>
+          </div>
+          <div class="detail">
+            <div class="wrap-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <span>19:30 - 21:30</span>
+          </div>
+          <div class="detail">
+            <div class="wrap-icon">
+              <i style="font-size: 22px;" class="fas fa-map-marker-alt"></i>
+            </div>
+            <a href="https://maps.app.goo.gl/VUNvgu5HdcUUc7Ds5" target="_blank" class="location-link">
+              <span style="text-decoration: underline; color: #333">19 Tố Hữu, Tòa nhà Tây Hà, Trung Văn, Nam Từ Liêm,
+                HN</span>
+            </a>
+          </div>
+        </div>
+        <div class="counter-container">
+          <p>Số người đã đăng ký:</p>
+          <div class="counter" id="registration-counter">0</div>
+        </div>
+      </div>
+      <div class="registration-form">
+        <h3>Đăng ký tham gia</h3>
+        <form id="register-form">
+          <div class="form-group">
+            <label for="name">Họ và tên <span style="color:red">*</span></label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Số điện thoại</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="facebook">Link Facebook</label>
+            <input type="url" id="facebook" name="facebook">
+          </div>
+          <div class="form-group">
+            <label for="notes">Ghi chú</label>
+            <input type="text" id="notes" name="notes">
+          </div>
+
+          <button type="submit" class="btn btn-submit" id="submit-btn">
+            <span class="btn-text">Đăng ký</span>
+            <span class="loading-spinner hidden">
+              <i class="fas fa-spinner fa-spin"></i>
+            </span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Các hoạt động đã tổ chức -->
+  <section id="activities" class="activities-section">
+    <div class="container">
+      <h2>Những hoạt động đã tổ chức</h2>
+      <p class="fundraising-intro">Dưới đây là những hoạt động hợp tác thú vị mà chúng tôi đã thực hiện, và hội thảo bạn
+        đăng ký hôm nay chính là bước đột phá đầu tiên do chúng tôi độc lập tổ chức.</p>
+
+      <div class="activities-grid">
+        <div class="activity-card">
+          <div class="activity-image">
+            <img src="./image/who-are-you-thumbnail.jpg" alt="Who are you">
+          </div>
+          <div class="activity-content">
+            <h3>Who are you</h3>
+            <p>Hội thảo "Who Are You" là một sự kiện tập trung vào việc khám phá bản sắc cá nhân và sự phát triển bản
+              thân. Chương trình cung cấp những góc nhìn sâu sắc giúp người tham gia hiểu rõ hơn về chính mình, giá trị
+              cốt lõi và định hướng cuộc sống.</p>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-image">
+            <img src="./image/bi-an-360-thumbnail.jpg" alt="Bí ẩn 360">
+          </div>
+          <div class="activity-content">
+            <h3>Bí ẩn 360</h3>
+            <p>"Bí Ẩn 360" là một chương trình khám phá những điều thú vị và huyền bí về không gian vũ trụ. Sự kiện mang
+              đến cái nhìn toàn diện về các hiện tượng và bí ẩn của vũ trụ rộng lớn.</p>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-image">
+            <img src="./image/thong-diep-cuoc-song-2025-thumbnail.jpg" alt="Thông điệp cuộc sống 2025">
+          </div>
+          <div class="activity-content">
+            <h3>Thông điệp cuộc sống</h3>
+            <p>Hội thảo "Thông Điệp Cuộc Sống" là một chương trình tập trung vào việc khám phá ý nghĩa và giá trị sâu
+              sắc của cuộc sống. Sự kiện chia sẻ những thông điệp quan trọng giúp người tham gia tìm thấy mục đích và
+              hướng đi tích cực trong hành trình sống.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Câu chuyện chia sẻ -->
+  <section id="stories" class="stories-section">
+    <div class="container">
+      <h2>Góc chia sẻ & cảm nhận</h2>
+      <p class="fundraising-intro">Cảm nhận và trải lòng từ những người bạn đã tham gia các hoạt động của Safe Spaces -
+        nơi mà mọi cảm xúc đều được lắng nghe và trân trọng.</p>
+
+      <div class="stories-grid">
+        <div class="story-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="quote" width="32" height="32">
+            <path fill="#7fd1ae"
+              d="M29.449 36.548c.938 5.251-3.094 10.128-9.846 10.128s-10.409-8.909-9.19-16.6c1.13-7.132 8.874-11.6 14.481-12.587a1 1 0 0 1 1.168 1.077l-.2 2.366a.977.977 0 0 1-.786.892c-6.045 1.025-9.642 10.085-5.941 9 3.844-1.124 9.376.476 10.314 5.724Zm24.236 0c-.938-5.251-6.471-6.845-10.316-5.72-3.7 1.083-.1-7.977 5.941-9a.976.976 0 0 0 .786-.892l.2-2.366a1 1 0 0 0-1.168-1.077c-5.606.986-13.35 5.455-14.481 12.587-1.219 7.689 2.438 16.6 9.19 16.6s10.785-4.88 9.848-10.132Z">
+            </path>
+          </svg>
+
+          <p class="quote-text">"Hội thảo đã mang đến cho mình nhiều suy ngẫm tích cực. Cảm ơn vì đã tạo ra một không
+            gian tốt đẹp như vậy."</p>
+          <p class="author">Minh An</p>
+        </div>
+
+        <div class="story-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="quote" width="32" height="32">
+            <path fill="#7fd1ae"
+              d="M29.449 36.548c.938 5.251-3.094 10.128-9.846 10.128s-10.409-8.909-9.19-16.6c1.13-7.132 8.874-11.6 14.481-12.587a1 1 0 0 1 1.168 1.077l-.2 2.366a.977.977 0 0 1-.786.892c-6.045 1.025-9.642 10.085-5.941 9 3.844-1.124 9.376.476 10.314 5.724Zm24.236 0c-.938-5.251-6.471-6.845-10.316-5.72-3.7 1.083-.1-7.977 5.941-9a.976.976 0 0 0 .786-.892l.2-2.366a1 1 0 0 0-1.168-1.077c-5.606.986-13.35 5.455-14.481 12.587-1.219 7.689 2.438 16.6 9.19 16.6s10.785-4.88 9.848-10.132Z">
+            </path>
+          </svg>
+          <p class="quote-text">"Mình thường ngại tham gia mấy buổi này lắm, nhưng hôm nay thấy thoải mái bất ngờ. Mọi
+            người dễ thương, không khí cũng không căng thẳng gì. Sẽ theo dõi xem có hoạt động nào nữa không."</p>
+          <p class="author">Lan Anh</p>
+        </div>
+
+        <div class="story-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="quote" width="32" height="32">
+            <path fill="#7fd1ae"
+              d="M29.449 36.548c.938 5.251-3.094 10.128-9.846 10.128s-10.409-8.909-9.19-16.6c1.13-7.132 8.874-11.6 14.481-12.587a1 1 0 0 1 1.168 1.077l-.2 2.366a.977.977 0 0 1-.786.892c-6.045 1.025-9.642 10.085-5.941 9 3.844-1.124 9.376.476 10.314 5.724Zm24.236 0c-.938-5.251-6.471-6.845-10.316-5.72-3.7 1.083-.1-7.977 5.941-9a.976.976 0 0 0 .786-.892l.2-2.366a1 1 0 0 0-1.168-1.077c-5.606.986-13.35 5.455-14.481 12.587-1.219 7.689 2.438 16.6 9.19 16.6s10.785-4.88 9.848-10.132Z">
+            </path>
+          </svg>
+          <p class="quote-text">"Thú thật là mình đi với tâm lý thử xem sao thôi. Ai ngờ ngồi đó 2 tiếng mà như được sạc
+            pin lại. Tối về còn gọi điện cho bạn kể lại nữa 😅"</p>
+          <p class="author">Minh Đức</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Vật phẩm gây quỹ -->
+  <section id="fundraising" class="fundraising-section">
+    <div class="container">
+      <h2>Lan tỏa tình yêu thương</h2>
+      <p class="fundraising-intro">Với mỗi sản phẩm được bán ra là một lần thông điệp yêu thương được gửi gắm.
+        Quét mã phía dưới để chuyển khoản trực tiếp cho Hội Chữ thập đỏ Việt Nam</p>
+      </p>
+      <div class="fundraising-grid">
+        <div class="fundraising-card">
+          <div class="activity-image">
+            <img src="./image/crochet-keychain.jpg" alt="Móc khóa">
+          </div>
+          <h3>Móc khóa len</h3>
+        </div>
+        <div class="fundraising-card">
+          <div class="activity-image">
+            <img src="./image/sticker-set.jpg" alt="Sticker">
+          </div>
+          <h3>Bộ sticker</h3>
+        </div>
+        <div class="fundraising-card">
+          <div class="activity-image">
+            <img src="./image/bookmarks.jpg" alt="Bookmark">
+          </div>
+          <h3>Bookmark</h3>
+        </div>
+      </div>
+      <div class="donation-info">
+        <div>
+          <div class="qr-code">
+            <img src="./image/Chu-thap-do-QR.jpg" alt="Mã QR chuyển khoản">
+          </div>
+          <p>Ngân hàng Quân đội (MB)</p>
+          <p>TW HOI CHU THAP DO</p>
+          <p>STK: 2022 (chỉ 4 số)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chân trang -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Safe Spaces</div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=61577096197788" target="_blank"><i
+              class="fab fa-facebook-f"></i></a>
+        </div>
+        <p class="copyright">Safe Spaces &copy; 2025</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

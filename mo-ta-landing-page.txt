@@ -1,0 +1,57 @@
+Dưới đây là mô tả chi tiết về thiết kế của landing page "Safe Spaces":
+I. Cấu trúc trang (Layout):
+
+Landing page sẽ được thiết kế theo dạng cuộn trang (single-page scroll) với các phần được bố trí rõ ràng, dễ điều hướng, đảm bảo trải nghiệm người dùng thân thiện trên cả máy tính và thiết bị di động.
+
+II. Các phần chính:
+
+1. Phần đầu trang (Hero Section):
+
+Tên tổ chức: "Safe Spaces" được đặt ở vị trí trung tâm, nổi bật với font chữ hiện đại, thân thiện.
+Giới thiệu ngắn gọn: Dưới tên tổ chức là dòng giới thiệu: "Là tổ chức được lập ra của những người trẻ đang rơi vào những mệt mỏi cuộc sống và tự hỏi có thể làm gì để chia sẻ tình yêu thương đối với cộng đồng." 
+Hình ảnh/Video nền: Sử dụng hình ảnh hoặc video nhẹ nhàng, truyền cảm hứng về sự sẻ chia, tình nguyện, hoặc những khoảnh khắc bình yên trong cuộc sống.
+2. Thông tin Hội thảo sắp tới và Form đăng ký:
+
+Phần này sẽ được chia thành hai cột song song:
+Cột trái (Thông tin Hội thảo):
+Tiêu đề: "Hội thảo sắp tới: Mẹ - mã di truyền của tình yêu thương" 
+Thời gian và địa điểm: Hiển thị rõ ràng ngày 22 tháng 6 , cùng với thông tin về thời gian và địa điểm tổ chức cụ thể.
+
+Số người đã đăng ký: Một bộ đếm (counter) hiển thị số lượng người đã đăng ký tham gia, tạo cảm giác về sự kiện đang được quan tâm.
+Cột phải (Form đăng ký):
+Form đăng ký được hiển thị trực tiếp, không cần nút bấm hay popup.
+Các trường thông tin bao gồm: Tên, Số điện thoại, Link Facebook.
+Bên dưới form là nút "Đăng ký" hoặc "Gửi đăng ký" để hoàn tất việc đăng ký.
+KHi đó sẽ tiến hành điền thông tin mà người dùng đã nhập vào một file google sheet đã chuẩn bị trước
+3. Các hoạt động đã tổ chức:
+
+Tiêu đề: "Những hoạt động đã tổ chức"
+Danh sách hoạt động: Hiển thị dưới dạng các thẻ (card) hoặc danh sách với tiêu đề và mô tả ngắn gọn, ví dụ: "Âm nhạc chữa lành".
+Mỗi hoạt động có thể kèm theo hình ảnh minh họa nhỏ để tăng tính hấp dẫn.
+4. Câu chuyện chia sẻ:
+
+Tiêu đề: "Những câu chuyện từ Safe Spaces"
+Các câu chuyện: Trình bày dưới dạng carousel hoặc grid, mỗi mục hiển thị trích dẫn ngắn từ người tham gia, kèm theo ảnh đại diện (nếu có) và tên (hoặc biệt danh).
+Mỗi câu chuyện có thể có nút "Xem thêm" để đọc chi tiết (nếu có trang riêng cho từng câu chuyện).
+5. Vật phẩm gây quỹ:
+
+Tiêu đề: "Ủng hộ Safe Spaces - Lan tỏa yêu thương"
+Thông báo: "Trong chương trình sẽ bán một số vật phẩm nhỏ như móc khóa, bộ sticker, book mark..." 
+Thông tin quyên góp: "Tiền sẽ được chuyển khoản trực tiếp tới Hội chữ thập đỏ Việt Nam, đính kèm mã QR".
+Hình ảnh vật phẩm: Hiển thị hình ảnh minh họa các vật phẩm.
+Mã QR: Mã QR lớn, rõ ràng để người dùng có thể quét và chuyển khoản.
+6. Chân trang (Footer):
+
+Copyright: "Copyright © Safe Spaces" hoặc "Safe Spaces © [Năm hiện tại]".
+Icon mạng xã hội: Icon liên kết trực tiếp đến fanpage Facebook của Safe Spaces.
+III. Giao diện người dùng (UI) và Trải nghiệm người dùng (UX):
+
+Màu sắc: Sử dụng bảng màu nhẹ nhàng, tạo cảm giác bình yên, tin cậy (ví dụ: các tông màu xanh lá cây, xanh dương nhạt, trắng, be).
+Font chữ: Dễ đọc, hiện đại và thân thiện.
+Đáp ứng (Responsive): Đảm bảo trang hiển thị tốt trên mọi kích thước màn hình (máy tính, máy tính bảng, điện thoại di động).
+Hiệu ứng (Animations): Sử dụng các hiệu ứng chuyển động nhẹ nhàng, tinh tế (ví dụ: fade-in khi cuộn trang) để tăng tính tương tác mà không gây rối mắt.
+Tải trang: Tối ưu hóa tốc độ tải trang để đảm bảo trải nghiệm mượt mà.
+IV. Tính năng bổ sung (nếu có thể):
+
+Thanh điều hướng (Navigation Bar): Một thanh điều hướng cố định (sticky navigation) ở đầu trang, cho phép người dùng nhanh chóng di chuyển giữa các phần.
+Form liên hệ: Có thể thêm một form liên hệ nhỏ ở footer hoặc một trang riêng nếu người dùng muốn gửi tin nhắn trực tiếp.
