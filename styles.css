@@ -693,3 +693,10 @@ section {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+.workshop-status {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    
+}
